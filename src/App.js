@@ -1,8 +1,9 @@
 import React from "react";
 import "./App.css";
 
-import { createMuiTheme } from "@material-ui/core/styles/createMuiTheme";
+import { createMuiTheme } from "@material-ui/core/styles";
 import { ThemeProvider as MuiThemeProvider } from "@material-ui/core/styles";
+
 import indigo from "@material-ui/core/colors/indigo";
 import Navbar from "./components/Navbar";
 
@@ -14,7 +15,7 @@ const theme = createMuiTheme({
     },
   },
   typography: {
-    fontfamily: "Comic Neue",
+    fontFamily: "Comic Neue",
   },
 });
 

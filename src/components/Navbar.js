@@ -42,7 +42,7 @@ const Navbar = (props) => {
           SNS APP
         </Typography>
         {/* バッジ作成、３はダミー */}
-        <Badge className={classes.bg} bagdeContent={3} color="secondary">
+        <Badge className={classes.bg} badgeContent={3} color="secondary">
           <NotificationsIcon />
         </Badge>
         <button className="signOut" onClick={Logout()}>
